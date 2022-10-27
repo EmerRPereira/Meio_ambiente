@@ -6,3 +6,22 @@ img {
     height: 200px;
 }
 
+h1 {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    font-size: 1.3em;
+    margin: 15px;
+}
+
+nav a {
+    color:blue;
+}
+
+nav a:hover {
+    color:red;
+}
+
+
