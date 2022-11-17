@@ -20,3 +20,57 @@ i {
     font-style: italic;
     color:blue;
 }
+
+.linhas {
+    background-color: antiquewhite;
+    border: 2px solid red;
+    margin: 20px;
+    padding: 20px;
+}
+
+.clima {
+    padding-left: 1%;
+    width: 8%;
+}
+
+.natureza {
+    padding-left: 82%;
+    width: 8%;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.menu {
+    background-color:rgb(199, 238, 126);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-left: 0px;
+}
+
+.escolha {
+    position: absolute;
+    top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav li {
+    display: inline;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+nav a {
+    color:blue;
+}
+
+nav a:hover {
+    color:red;
+}
