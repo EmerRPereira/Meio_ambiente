@@ -1,44 +1,22 @@
 body {
-    background-color: rgba(255, 0, 0, 0.4);
+    background-color: rgba(0, 255, 0, 0.4);
     font-family: 'Abel', sans-serif;
+    padding: 120px 0 0 0;
 }
 
-.clima {
-    padding-left: 1%;
-    width: 8%;
-}
-
-.natureza {
-    padding-left: 82%;
-    width: 8%;
-}
-
-h1 {
-    text-align: center;
-    margin: 20px;
+.texto {
     font-size: 2em;
+    margin: 20px;
+    line-height: 1.5em;
+    padding: 20px;
+    text-indent: 50px;
+}
+
+b {
     font-weight: bold;
 }
 
-.escolha {
-    position: absolute;
-    top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-nav li {
-    display: inline;
-    font-size: 1.2em;
-    padding-left: 10px;
-}
-
-nav a {
+i {
+    font-style: italic;
     color:blue;
 }
-
-nav a:hover {
-    color:red;
-}
-
-
