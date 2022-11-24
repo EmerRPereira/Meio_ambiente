@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 255, 0, 0.4);
+    background-color: lightgoldenrodyellow;
     font-family: 'Abel', sans-serif;
     padding: 120px 0 0 0;
 }
@@ -46,7 +46,7 @@ h1 {
 }
 
 .menu {
-    background-color:rgb(199, 238, 126);
+    background-color:bisque;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -73,4 +73,33 @@ nav a {
 
 nav a:hover {
     color:red;
+}
+
+.areas {
+    position: static;
+    text-align: center;
+    width: 1500px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.areas li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    background:rgb(244, 244, 206);
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    border: 5px double black;
+    border-radius: 25px;
+}
+
+.menu2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.subimg10 {
+    width: 10%;
 }
