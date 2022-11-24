@@ -100,10 +100,17 @@ nav a:hover {
     font-weight: bold;
 }
 
-.subimg10 {
-    width: 10%;
+.subimg50 {
+    width: 50%;
 }
 
+.subimg60 {
+    width: 60%;
+}
+
+.subimg90 {
+    width: 90%;
+}
 
 li:hover {
     cursor: pointer;
