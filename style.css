@@ -103,3 +103,37 @@ nav a:hover {
 .subimg10 {
     width: 10%;
 }
+
+
+li:hover {
+    cursor: pointer;
+    border-color: red;
+}
+
+li:hover h2 {
+    font-size: 2.2em;
+    color: red;
+    font-weight: bold;
+}
+
+li:active h2 {
+    font-size: 2.2em;
+    color: green;
+    font-weight: bold;
+}
+
+li:active {
+    border-color: green;
+}
+
+li:hover p {
+    font-size: 1.1em;
+    color: red;
+    font-weight: bold;
+}
+
+li:active p {
+    font-size: 1.1em;
+    color: green;
+    font-weight: bold;
+}
